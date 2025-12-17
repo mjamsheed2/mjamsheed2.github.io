@@ -244,6 +244,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Subtitle quote styling (used on the about page header, but safe site-wide)
+.subtitle-quote {
+  display: inline-block;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
 // Navbar customization
 
 .navbar {
