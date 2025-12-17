@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# Tip: if you want visible quote marks, you must include them in the string.
+# Example with “smart quotes” + styling:
+subtitle: <span class="subtitle-quote">“It’s the possibility of having a dream come true that makes life interesting.”</span>
 
 profile:
   align: right
