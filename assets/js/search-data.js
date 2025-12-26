@@ -44,11 +44,26 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "books-nonsense",
+            },{id: "books-the-master-and-the-margarita",
+          title: 'The Master and the Margarita',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/master_marg/";
+            },},{id: "books-nonsense",
           title: 'Nonsense',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/nonsense/";
+            },},{id: "books-the-rise-and-fall-of-the-great-powers",
+          title: 'The Rise and Fall of the Great Powers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rise_and_fall/";
+            },},{id: "books-talking-to-strangers",
+          title: 'Talking to Strangers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/talking_to_strangers/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
